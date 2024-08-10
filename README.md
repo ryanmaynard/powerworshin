@@ -7,6 +7,7 @@
 ### 🏞️ What's PowerWorshin all about?
 
 PowerWorshin is a smart PowerShell script that'll clean up those empty folders quicker'n you can say "Raise Hell, Praise Dale". It's like givin' your computer a good once-over: it ain't a deep clean, just a good go at the jewels and pits. 
+
 ---
 
 ### 🛠️ How do I get this thing goin'?
