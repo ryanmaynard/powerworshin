@@ -105,7 +105,6 @@ function Get-EmptyFolders {
     return $emptyFolders
 }
 
-# Function to remove empty folders
 function Remove-EmptyFolders {
     param (
         [string[]]$Folders,
@@ -120,7 +119,7 @@ function Remove-EmptyFolders {
             }
         }
         catch {
-            Write-Log "Error removing folder $folder: $_"
+            Write-Log "Error removing folder $folder: $($_.Exception.Message)"
         }
     }
 }
